@@ -21,5 +21,5 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
     ],
-    packages=['dnnlib'],
+    packages=['dnnlib', 'dnnlib.submission', 'dnnlib.submission._internal', 'dnnlib.tflib'],
 )

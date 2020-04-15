@@ -13,9 +13,9 @@ import tensorflow as tf
 from collections import OrderedDict
 from typing import List, Union
 
-from . import autosummary
-from . import tfutil
-from .. import util
+from dnnlib.tflib import autosummary
+from dnnlib.tflib import tfutil
+from dnnlib import util
 
 from .tfutil import TfExpression, TfExpressionEx
 

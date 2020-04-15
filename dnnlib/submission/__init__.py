@@ -5,5 +5,5 @@
 # http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to
 # Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-from . import run_context
-from . import submit
+from dnnlib.submission import run_context
+from dnnlib.submission import submit

@@ -5,12 +5,12 @@
 # http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to
 # Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-from . import autosummary
-from . import network
-from . import optimizer
-from . import tfutil
+from dnnlib.tflib import autosummary
+from dnnlib.tflib import network
+from dnnlib.tflib import optimizer
+from dnnlib.tflib import tfutil
 
-from .tfutil import *
-from .network import Network
+from dnnlib.tflib.tfutil import *
+from dnnlib.tflib.network import Network
 
-from .optimizer import Optimizer
+from dnnlib.tflib.optimizer import Optimizer

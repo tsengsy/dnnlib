@@ -28,9 +28,9 @@ import tensorflow as tf
 from tensorboard import summary as summary_lib
 from tensorboard.plugins.custom_scalar import layout_pb2
 
-from . import tfutil
-from .tfutil import TfExpression
-from .tfutil import TfExpressionEx
+from dnnlib.tflib import tfutil
+from dnnlib.tflib.tfutil import TfExpression
+from dnnlib.tflib.tfutil import TfExpressionEx
 
 _dtype = tf.float64
 _vars = OrderedDict()  # name => [var, ...]

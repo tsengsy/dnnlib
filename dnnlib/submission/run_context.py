@@ -16,7 +16,7 @@ import types
 
 from typing import Any
 
-from . import submit
+from dnnlib.submission import submit
 
 
 class RunContext(object):

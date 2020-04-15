@@ -18,10 +18,10 @@ import tensorflow as tf
 from collections import OrderedDict
 from typing import Any, List, Tuple, Union
 
-from . import tfutil
-from .. import util
+from dnnlib.tflib import tfutil
+from dnnlib import util
 
-from .tfutil import TfExpression, TfExpressionEx
+from dnnlib.tflib.tfutil import TfExpression, TfExpressionEx
 
 _import_handlers = []  # Custom import handlers for dealing with legacy data in pickle import.
 _import_module_src = dict()  # Source code for temporary modules created during pickle import.

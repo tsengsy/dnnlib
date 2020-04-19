@@ -7,10 +7,9 @@ setup(
 
     description='dnnlib - from StyleGAN repository',
 
-    url='https://github.com/podgorskiy/dlutils',
+    url='https://github.com/podgorskiy/dnnlib',
 
-    author='Stanislav Pidhorskyi',
-    author_email='stanislav@podgorskiy.com',
+    author='NVIDIA',
 
     license='Creative Commons Attribution-NonCommercial 4.0',
 
